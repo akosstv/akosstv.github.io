@@ -1,0 +1,93 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+main {
+ width: 600px;
+ margin: 0 auto;
+}
+
+.newsletter-form {
+  color: rgb(102, 109, 116);
+  border: 1px solid #808B96;
+  padding: 8px;
+  border-radius: 3px;
+  position: relative;
+   
+}
+
+input[type="text"] {
+  width:100%;
+  box-sizing: border-box;
+  height: 30px;
+  margin: 0 0 5px;
+}
+
+
+input[type="submit"] {
+  width:100%;
+  box-sizing: border-box;
+  background: #3cb878;
+  border: 0;
+  color: white;
+  height: 30px;
+  margin: 0 0 10px;
+  cursor: pointer;
+}
+
+.newsletter-form h2 {
+  margin-top: 0;
+  
+}
+
+a {
+  color: #3CB878;
+}
+
+.exit-button {
+  position: absolute;
+  top: 3px;
+  right: 10px;
+  cursor: pointer;
+   
+}
+
+.question-button {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  width: 100px;
+  color: white;
+  font-size: 70px;
+  text-align: center;
+  border-radius: 50%;
+  z-index: 10;
+  background: #3bc878;
+  cursor: pointer;
+  box-shadow: 5px 5px 10px grey;
+}
+
+.key-features {
+  display: flex;
+  /*flex-direction: row-reverse*/
+  justify-content: space-between;
+  /*flex-wrap: wrap;*/
+  /*align-items: flex-start;*/
+}
+
+.feature {
+  background: #3bc878;
+  padding: 20px;
+  margin: 10px 0;
+  width: 120px;
+  box-shadow: 5px 5px 10px grey;
+  
+}
+
+.feature p {
+  color:white;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 0;
+  text-align: center;
+}
